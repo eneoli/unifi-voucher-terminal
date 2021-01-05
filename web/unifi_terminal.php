@@ -12,8 +12,8 @@ const CONTROLLER_VERSION = "6.0.41";
 
 const VOUCHER_EXPIRATION = 2000;
 const VOUCHER_USERS = 30;
-const QRCODE_DATA = "WIFI:S:WLAN am Leo;T:WPA;P:GymnasiumLeoninum";
-const PREPENDIX = "Gymnasium Leoninum Handrup \n Dauer: 2 Std. \n SSID: WLAN am Leo \n Passwort: GymnasiumLeoninum";
+const QRCODE_DATA = "WIFI:S:WLAN;T:WPA;P: Passwort";
+const PREPENDIX = "Gymnasium Leoninum Handrup \n Dauer: 2 Std. \n SSID: WLAN\n Passwort: Passwort";
 const APPENDIX = "Viel Spass im Wlan";
 
 header('Content-Type: application/json');
